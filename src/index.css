@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  --primary: #25262a;
+  --secondary: #b6b6b6;
+  --secondary-light: #dfdfdf;
+  --tertiary: #b7a4ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Monda", "Manrope", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+}
+
+@font-face {
+  font-family: "Manrope";
+  weight: 400;
+  src: local("Manrope"), url("./fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Manrope";
+  weight: 700;
+  src: local("Manrope"), url("./fonts/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Monda";
+  weight: 400;
+  src: local("Monda"), url("./fonts/Monda-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Monda";
+  weight: 700;
+  src: local("Monda"), url("./fonts/Monda-Bold.ttf");
 }
