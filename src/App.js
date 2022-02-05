@@ -1,8 +1,10 @@
+import TopNav from "./components/TopNav";
+
 function App() {
   return (
-    <div>
-      <header>hi</header>
-    </div>
+    <>
+      <TopNav />
+    </>
   );
 }
 
