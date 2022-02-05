@@ -23,7 +23,8 @@
 
 @media (min-width: 768px) {
   #sarah {
-    max-width: none;
+    padding: 10rem 10rem;
+    max-width: 24rem;
   }
   #name {
     font-size: 4rem;
@@ -34,6 +35,10 @@
 }
 
 @media (min-width: 1024px) {
+  #sarah {
+    padding: 12rem 16rem;
+    max-width: none;
+  }
   #name {
     font-size: 5.5rem;
   }
