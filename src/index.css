@@ -11,6 +11,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary);
+  color: var(--secondary);
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+}
+
+.pop-text {
+  color: var(--tertiary);
 }
 
 @font-face {
