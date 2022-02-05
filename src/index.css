@@ -1,8 +1,7 @@
 html {
-  --primary: #25262a;
-  --secondary: #b6b6b6;
-  --secondary-light: #dfdfdf;
-  --tertiary: #b7a4ff;
+  --primary: #141628;
+  --secondary: #dfdfdf;
+  --tertiary: #fd4370;
 }
 
 body {
