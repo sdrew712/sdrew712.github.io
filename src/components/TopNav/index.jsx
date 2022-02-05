@@ -3,8 +3,8 @@ import "./index.css";
 
 const TopNav = () => {
   return (
-    <div>
-      <a href="#me">Me</a>
+    <div id="top-nav">
+      <a href="#sarah">Sarah</a>
       <a href="#projects">Projects</a>
       <a href="#journey">Journey</a>
       <a href="#contact">Contact</a>
