@@ -3,9 +3,11 @@ import "./index.css";
 
 const Sarah = () => {
   return (
-    <div id="#sarah">
+    <div id="sarah">
       <p>Hi, I'm</p>
-      <h1 className="pop-text">Sarah Drew</h1>
+      <h1 className="pop-text" id="name">
+        Sarah Drew
+      </h1>
       <p>
         a <span className="pop-text">full-stack</span> developer & <span className="pop-text">creator.</span>
       </p>
