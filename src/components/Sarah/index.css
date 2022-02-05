@@ -6,3 +6,38 @@
 #name {
   font-size: 2.75rem;
 }
+
+.intro-text {
+  font-size: 1rem;
+}
+
+@media (min-width: 481px) {
+  #sarah {
+    padding-left: 4rem;
+    max-width: 20rem;
+  }
+  #name {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #sarah {
+    max-width: none;
+  }
+  #name {
+    font-size: 4rem;
+  }
+  .intro-text {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #name {
+    font-size: 5.5rem;
+  }
+  .intro-text {
+    font-size: 1.5rem;
+  }
+}
