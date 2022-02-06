@@ -1,5 +1,6 @@
 #sarah {
-  padding: 8rem 2.2rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   max-width: 16rem;
 }
 
@@ -13,7 +14,6 @@
 
 @media (min-width: 481px) {
   #sarah {
-    padding-left: 4rem;
     max-width: 20rem;
   }
   #name {
@@ -23,7 +23,8 @@
 
 @media (min-width: 768px) {
   #sarah {
-    padding: 10rem 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     max-width: 24rem;
   }
   #name {
