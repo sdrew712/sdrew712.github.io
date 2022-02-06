@@ -37,6 +37,11 @@ body {
   color: var(--secondary);
 }
 
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 h1 {
   font-family: "Manrope", sans-serif;
   margin: 0;

@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
       <Header title="Projects" />
-      <div id="projects">
+      <section id="projects">
         <ProjectCard
           image="images/dust-eater.png"
           alt="Completed robot car"
@@ -29,7 +29,7 @@ const Projects = () => {
           description="The start of my coding journey, a many-times-reworked instant noodle rating website!"
           tags={["React", "Amazon S3"]}
         />
-      </div>
+      </section>
     </>
   );
 };
