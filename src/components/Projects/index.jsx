@@ -9,7 +9,7 @@ const Projects = () => {
       <Header title="Projects" />
       <div id="projects">
         <ProjectCard
-          image="images/dust-eater.jpg"
+          image="images/dust-eater.png"
           alt="Completed robot car"
           title="Dust Eater"
           description="My Particle Photon powered IoT robot car"
