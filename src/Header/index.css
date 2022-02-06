@@ -1,0 +1,27 @@
+#header {
+  display: flex;
+  align-items: center;
+  padding-left: 2.2rem;
+}
+
+#line {
+  background-color: var(--tertiary);
+  width: 45px;
+  height: 1px;
+}
+
+#title {
+  padding-left: 1rem;
+}
+
+@media (min-width: 481px) {
+  #header {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #header {
+    padding-left: 10rem;
+  }
+}
