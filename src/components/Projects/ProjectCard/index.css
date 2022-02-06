@@ -8,3 +8,49 @@
   background-repeat: no-repeat;
   margin-bottom: 2.75rem;
 }
+
+#project-card h3 {
+  color: var(--tertiary);
+  font-family: "Manrope", sans-serif;
+  font-size: 1.75rem;
+}
+
+.project-description {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 28px;
+}
+
+.project-container div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.github-link-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.github-link-container p {
+  font-family: "Monda", sans-serif;
+  padding-left: 10px;
+  color: var(--tertiary);
+  margin: 0;
+}
+
+.tag:not(:last-of-type) {
+  padding-right: 10px;
+}

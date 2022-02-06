@@ -43,13 +43,17 @@ section {
 
 h1 {
   font-family: "Manrope", sans-serif;
-  margin: 0;
 }
 
 h2 {
   font-family: "Monda", sans-serif;
-  margin: 0;
   font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 .pop-text {
