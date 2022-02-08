@@ -1,0 +1,24 @@
+.journey-title-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.journey-title {
+  display: flex;
+  font-size: 1.75rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.date {
+  font-size: 1rem;
+}
+
+.detail {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+}
+
+.triangle {
+  padding-right: 1rem;
+}
