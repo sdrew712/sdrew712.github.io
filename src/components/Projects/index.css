@@ -1,7 +1,6 @@
 #projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  justify-content: space-evenly;
+  padding: 3rem 1rem;
 }
