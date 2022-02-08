@@ -11,11 +11,11 @@ const ProjectCard = ({ image, alt, title, description, tags }) => {
       <div className="project-container">
         <div>
           <h3>{title}</h3>
-          <img src="images/open.svg" alt="" />
+          <img src="images/open.svg" alt={alt} />
         </div>
 
         <p className="project-description">{description}</p>
-        <div className="='tag-container">
+        <div className="tag-container">
           {tags.map((tag, index) => (
             <span key={index} className="tag">
               {tag}
