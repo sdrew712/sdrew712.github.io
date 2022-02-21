@@ -1,0 +1,32 @@
+#contact {
+  padding: 8rem 3rem;
+}
+
+.contact-item:not(:last-child) {
+  padding-bottom: 1.75rem;
+}
+
+.contact-item p {
+  display: inline;
+  padding-left: 1.25rem;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+@media (min-width: 481px) {
+  #contact {
+    padding-left: 4.5rem;
+  }
+  .contact-item p {
+    padding-left: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact {
+    padding-left: 10.5rem;
+  }
+}
