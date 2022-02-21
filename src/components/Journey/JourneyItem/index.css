@@ -4,6 +4,8 @@ ul {
 
 .journey-item {
   max-width: 400px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .journey-item:not(:last-child) {
@@ -33,10 +35,4 @@ ul {
 
 .triangle {
   padding-right: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .journey-item:not(:first-child) {
-    padding-left: 2rem;
-  }
 }
