@@ -1,4 +1,4 @@
-import TopNav from "./components/TopNav";
+import NavBar from "./components/NavBar";
 import Sarah from "./components/Sarah";
 import Projects from "./components/Projects";
 import Journey from "./components/Journey";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <TopNav />
+      <NavBar />
       <Sarah />
       <Projects />
       <Journey />

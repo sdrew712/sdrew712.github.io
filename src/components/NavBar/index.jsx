@@ -2,10 +2,10 @@ import React from "react";
 import Headroom from "react-headroom";
 import "./index.css";
 
-const TopNav = () => {
+const NavBar = () => {
   return (
     <Headroom>
-      <div id="top-nav">
+      <nav id="nav-bar">
         <a href="#sarah">Sarah</a>
 
         <div>
@@ -19,9 +19,9 @@ const TopNav = () => {
             Contact
           </a>
         </div>
-      </div>
+      </nav>
     </Headroom>
   );
 };
 
-export default TopNav;
+export default NavBar;
