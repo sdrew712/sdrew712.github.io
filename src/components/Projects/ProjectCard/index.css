@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 2.75rem;
+  margin: 0 0.5rem 2.75rem 0.5rem;
 }
 
 #project-card h3 {
