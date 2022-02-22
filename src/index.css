@@ -37,10 +37,6 @@ body {
   color: var(--secondary);
 }
 
-section {
-  padding: 3rem 2.2rem;
-}
-
 h1 {
   font-family: "Manrope", sans-serif;
 }
@@ -58,18 +54,4 @@ h3 {
 
 .pop-text {
   color: var(--tertiary);
-}
-
-@media (min-width: 481px) {
-  section {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-}
-
-@media (min-width: 768px) {
-  section {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
 }

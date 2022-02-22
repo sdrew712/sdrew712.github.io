@@ -1,6 +1,5 @@
 #sarah {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding: 8rem 2.2rem;
   max-width: 16rem;
 }
 
@@ -15,6 +14,8 @@
 @media (min-width: 481px) {
   #sarah {
     max-width: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   #name {
     font-size: 3.5rem;
@@ -26,6 +27,8 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     max-width: 24rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
   #name {
     font-size: 4rem;
