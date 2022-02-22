@@ -5,7 +5,7 @@ const JourneyItem = ({ title, location, dates, details }) => {
   return (
     <div className="journey-item">
       <div className="journey-title-container">
-        <h2 className="journey-title">{title} </h2>
+        <h2 className="journey-title">{title}&nbsp;</h2>
         <h2 className="pop-text journey-title">{location}</h2>
       </div>
       <p className="date">{dates}</p>
