@@ -1,4 +1,4 @@
-#contact {
+#contact-section {
   padding: 6rem 3rem;
 }
 
@@ -17,7 +17,7 @@
 }
 
 @media (min-width: 481px) {
-  #contact {
+  #contact-section {
     padding-left: 4.5rem;
   }
   .contact-item p {
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-  #contact {
+  #contact-section {
     padding-left: 10.5rem;
   }
 }

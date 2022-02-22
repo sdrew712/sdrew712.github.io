@@ -5,9 +5,9 @@ import "./index.css";
 
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <Header title="Projects" />
-      <div id="projects">
+      <div id="projects-section">
         <ProjectCard
           image="images/dust-eater.png"
           alt="Completed robot car"
@@ -30,7 +30,7 @@ const Projects = () => {
           tags={["React", "Amazon S3"]}
         />
       </div>
-    </>
+    </div>
   );
 };
 

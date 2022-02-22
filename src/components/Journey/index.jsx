@@ -5,9 +5,9 @@ import "./index.css";
 
 const Journey = () => {
   return (
-    <>
+    <div id="journey">
       <Header title="Journey" />
-      <section id="journey">
+      <div id="journey-section">
         <JourneyItem
           title="Engineering Intern"
           location="@ Sibi"
@@ -30,8 +30,8 @@ const Journey = () => {
             "Built final project, an ecommerce website, with React and the Stripe API ",
           ]}
         />
-      </section>
-    </>
+      </div>
+    </div>
   );
 };
 

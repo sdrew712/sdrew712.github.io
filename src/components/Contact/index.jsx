@@ -4,9 +4,9 @@ import "./index.css";
 
 const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <Header title="Contact" />
-      <div id="contact">
+      <div id="contact-section">
         <div className="contact-item">
           <a href="mailto:sarah.drew.dev@gmail.com">
             <img src="images/email.svg" alt="" />
@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
