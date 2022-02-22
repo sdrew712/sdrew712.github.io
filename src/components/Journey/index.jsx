@@ -7,7 +7,7 @@ const Journey = () => {
   return (
     <>
       <Header title="Journey" />
-      <section className="journey">
+      <section id="journey">
         <JourneyItem
           title="Engineering Intern"
           location="@ Sibi"
