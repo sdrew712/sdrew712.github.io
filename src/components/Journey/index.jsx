@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Header";
 import JourneyItem from "./JourneyItem";
 import "./index.css";
