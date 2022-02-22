@@ -5,7 +5,7 @@ import "./index.css";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <section id="projects">
       <Header title="Projects" />
       <div id="projects-section">
         <ProjectCard
@@ -30,7 +30,7 @@ const Projects = () => {
           tags={["React", "Amazon S3"]}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

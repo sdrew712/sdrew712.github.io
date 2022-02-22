@@ -4,7 +4,7 @@ import "./index.css";
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <section id="contact">
       <Header title="Contact" />
       <div id="contact-section">
         <div className="contact-item">
@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

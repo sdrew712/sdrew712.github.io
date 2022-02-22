@@ -5,7 +5,7 @@ import "./index.css";
 
 const Journey = () => {
   return (
-    <div id="journey">
+    <section id="journey">
       <Header title="Journey" />
       <div id="journey-section">
         <JourneyItem
@@ -31,7 +31,7 @@ const Journey = () => {
           ]}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
