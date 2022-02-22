@@ -3,6 +3,7 @@ import Sarah from "./components/Sarah";
 import Projects from "./components/Projects";
 import Journey from "./components/Journey";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Projects />
       <Journey />
       <Contact />
+      <Footer />
     </>
   );
 }
