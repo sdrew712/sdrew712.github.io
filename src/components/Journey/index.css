@@ -1,6 +1,9 @@
+#journey {
+  padding-top: 4rem;
+}
 #journey-section {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 6rem 2.2rem;
+  padding: 6rem 2.2rem 2rem 2.2rem;
 }
