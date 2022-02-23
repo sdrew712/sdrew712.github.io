@@ -11,8 +11,10 @@ const Projects = () => {
           image="images/dust-eater.png"
           alt="Completed robot car"
           title="Dust Eater"
-          description="My Particle Photon powered IoT robot car"
+          description="Meet my Particle Photon powered IoT robot car."
           tags={["React", "Arduino", "Particle Photon"]}
+          projectLink="https://medium.com/@sarah.drew.dev/creating-an-iot-robot-car-with-the-particle-photon-webhooks-and-react-2f0ab775aed1"
+          githubLink="https://github.com/sdrew712/dust-eater"
         />
         <ProjectCard
           image="images/board-hoard.png"
@@ -20,6 +22,8 @@ const Projects = () => {
           title="Board Hoard"
           description="A longboard e-commerce shop."
           tags={["React", "Node.js", "Express", "Prisma", "Stripe"]}
+          projectLink="https://www.youtube.com/watch?v=X-kMmp8WHKE"
+          githubLink="https://github.com/sdrew712/board-hoard"
         />
         <ProjectCard
           image="images/rate-noods.png"
@@ -27,6 +31,8 @@ const Projects = () => {
           title="Rate Noods"
           description="The start of my coding journey, a many-times-reworked instant noodle rating website!"
           tags={["React", "Amazon S3"]}
+          projectLink="http://ratenoods.xyz/"
+          githubLink="https://github.com/sdrew712/ratenoods.xyz"
         />
       </div>
     </section>
