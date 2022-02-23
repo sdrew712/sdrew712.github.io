@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   --primary: #141628;
   --secondary: #dfdfdf;
   --tertiary: #fd4370;
