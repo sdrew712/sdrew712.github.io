@@ -3,7 +3,7 @@
 }
 
 #contact-section {
-  padding: 6rem 3rem;
+  padding: 6rem 4.2rem;
 }
 
 .contact-item:not(:last-child) {
@@ -23,7 +23,7 @@
 
 @media (min-width: 481px) {
   #contact-section {
-    padding-left: 4.5rem;
+    padding-left: 6rem;
   }
   .contact-item p {
     padding-left: 1.8rem;
@@ -32,6 +32,6 @@
 
 @media (min-width: 768px) {
   #contact-section {
-    padding-left: 10.5rem;
+    padding-left: 12rem;
   }
 }
