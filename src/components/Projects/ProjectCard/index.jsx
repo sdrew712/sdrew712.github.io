@@ -14,8 +14,8 @@ const ProjectCard = ({
   };
 
   return (
-    <a href={projectLink}>
-      <div id="project-card" style={divImage}>
+    <a href={projectLink} className="project-link">
+      <div className="project-card" style={divImage}>
         <div className="project-container">
           <div>
             <h3>{title}</h3>
