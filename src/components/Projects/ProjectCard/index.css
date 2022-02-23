@@ -49,6 +49,10 @@
   padding-top: 20px;
 }
 
+.github-link-container a {
+  text-decoration: none;
+}
+
 .github-link-container p {
   font-family: "Monda", sans-serif;
   padding-left: 10px;
