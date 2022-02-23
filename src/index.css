@@ -7,25 +7,25 @@ html {
 
 @font-face {
   font-family: "Manrope";
-  weight: 400;
+  font-weight: 400;
   src: local("Manrope"), url("./fonts/Manrope-Regular.ttf");
 }
 
 @font-face {
   font-family: "Manrope";
-  weight: 700;
+  font-weight: 700;
   src: local("Manrope"), url("./fonts/Manrope-Bold.ttf");
 }
 
 @font-face {
   font-family: "Monda";
-  weight: 400;
+  font-weight: 400;
   src: local("Monda"), url("./fonts/Monda-Regular.ttf");
 }
 
 @font-face {
   font-family: "Monda";
-  weight: 700;
+  font-weight: 700;
   src: local("Monda"), url("./fonts/Monda-Bold.ttf");
 }
 

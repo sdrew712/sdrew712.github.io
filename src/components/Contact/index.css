@@ -13,6 +13,7 @@
 .contact-item p {
   display: inline;
   padding-left: 1.25rem;
+  font-weight: bold;
 }
 
 .contact-item a {

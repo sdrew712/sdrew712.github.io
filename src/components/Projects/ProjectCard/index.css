@@ -23,7 +23,6 @@
 .project-description {
   font-family: "Manrope", sans-serif;
   font-size: 1.12rem;
-  font-weight: 400;
 }
 
 .project-container {
@@ -41,12 +40,14 @@
 .tag-container {
   display: flex;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .github-link-container {
   display: flex;
   align-items: center;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .github-link-container a {

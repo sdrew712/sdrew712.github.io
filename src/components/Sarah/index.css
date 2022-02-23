@@ -9,6 +9,7 @@
 
 .intro-text {
   font-size: 1rem;
+  font-weight: bold;
 }
 
 @media (min-width: 481px) {
