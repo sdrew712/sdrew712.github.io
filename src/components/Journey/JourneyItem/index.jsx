@@ -1,6 +1,8 @@
+import JourneyDetail from "../JourneyDetail";
 import "./index.css";
+import React from "react";
 
-const JourneyItem = ({ title, location, dates, details }) => {
+const JourneyItem = ({ title, location, dates, children }) => {
   return (
     <div className="journey-item">
       <div className="journey-title-container">
@@ -9,11 +11,8 @@ const JourneyItem = ({ title, location, dates, details }) => {
       </div>
       <p className="date">{dates}</p>
       <ul>
-        {details?.map((detail, index) => (
-          <li className="detail" key={index}>
-            <span className="pop-text triangle">▹</span>
-            <span key={index}>{detail}</span>
-          </li>
+        {React.Children.map(children, (child) => (
+          <JourneyDetail>{child}</JourneyDetail>
         ))}
       </ul>
     </div>

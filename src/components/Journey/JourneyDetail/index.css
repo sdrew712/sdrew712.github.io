@@ -1,0 +1,12 @@
+.detail {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+}
+
+.detail:not(:last-child) {
+  padding-bottom: 0.5rem;
+}
+
+.detail > p {
+  margin: 0;
+}

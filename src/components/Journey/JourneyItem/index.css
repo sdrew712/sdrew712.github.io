@@ -28,15 +28,6 @@ ul {
   font-size: 1rem;
 }
 
-.detail {
-  display: flex;
-  font-family: "Manrope", sans-serif;
-}
-
-.detail:not(:last-child) {
-  padding-bottom: 0.5rem;
-}
-
 .triangle {
   padding-right: 1rem;
 }
