@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sarahdrew.dev/static/css/main.39923537.css",
-    "main.js": "/sarahdrew.dev/static/js/main.01e71868.js",
-    "static/media/Monda-Bold.ttf": "/sarahdrew.dev/static/media/Monda-Bold.f4ddb600d3b12260a2bd.ttf",
-    "static/media/Monda-Regular.ttf": "/sarahdrew.dev/static/media/Monda-Regular.e92622470a303406a62a.ttf",
-    "static/media/Manrope-Regular.ttf": "/sarahdrew.dev/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
-    "static/media/Manrope-Bold.ttf": "/sarahdrew.dev/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
-    "index.html": "/sarahdrew.dev/index.html",
-    "main.39923537.css.map": "/sarahdrew.dev/static/css/main.39923537.css.map",
-    "main.01e71868.js.map": "/sarahdrew.dev/static/js/main.01e71868.js.map"
+    "main.css": "/static/css/main.b5acc1ce.css",
+    "main.js": "/static/js/main.01e71868.js",
+    "static/media/Monda-Bold.ttf": "/static/media/Monda-Bold.f4ddb600d3b12260a2bd.ttf",
+    "static/media/Monda-Regular.ttf": "/static/media/Monda-Regular.e92622470a303406a62a.ttf",
+    "static/media/Manrope-Regular.ttf": "/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
+    "static/media/Manrope-Bold.ttf": "/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
+    "index.html": "/index.html",
+    "main.b5acc1ce.css.map": "/static/css/main.b5acc1ce.css.map",
+    "main.01e71868.js.map": "/static/js/main.01e71868.js.map"
   },
   "entrypoints": [
-    "static/css/main.39923537.css",
+    "static/css/main.b5acc1ce.css",
     "static/js/main.01e71868.js"
   ]
 }
