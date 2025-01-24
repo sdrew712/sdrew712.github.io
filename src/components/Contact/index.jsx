@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="contact-item">
           <a href="https://github.com/sdrew712">
             <img src="images/github-logo.svg" alt="" />
-            <p>See all my code</p>
+            <p>Github</p>
           </a>
         </div>
       </div>
