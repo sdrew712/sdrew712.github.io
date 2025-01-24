@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <Headroom>
       <nav id="nav-bar">
-        <a href="#sarah" name="sarah">
+        <a href="#sarah" name="sarah" id="sarah">
           Sarah
         </a>
 

@@ -2,7 +2,7 @@ import "./index.css";
 
 const Sarah = () => {
   return (
-    <section id="sarah">
+    <section id="sarah-header">
       <p className="intro-text">Hi, I'm</p>
       <h1 className="pop-text" id="name">
         Sarah Drew

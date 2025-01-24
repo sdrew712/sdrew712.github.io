@@ -1,6 +1,7 @@
-#sarah {
+#sarah-header {
   padding: 8rem 2.2rem 4rem 2.2rem;
   max-width: 16rem;
+  color: (--tertiary);
 }
 
 #name {
@@ -13,7 +14,7 @@
 }
 
 @media (min-width: 481px) {
-  #sarah {
+  #sarah-header {
     max-width: 20rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -24,7 +25,7 @@
 }
 
 @media (min-width: 768px) {
-  #sarah {
+  #sarah-header {
     padding-top: 10rem;
     padding-bottom: 10rem;
     max-width: 24rem;
@@ -40,7 +41,7 @@
 }
 
 @media (min-width: 1024px) {
-  #sarah {
+  #sarah-header {
     max-width: none;
   }
   #name {

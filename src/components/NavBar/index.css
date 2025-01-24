@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+#nav-bar #sarah {
+  color: var(--tertiary);
+}
+
 .nav-item-right {
   padding-left: 1.5rem;
 }
