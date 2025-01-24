@@ -11,7 +11,7 @@ const Projects = () => {
           image="images/3dkandi.png"
           alt="Pattern maker image"
           title="3Dkandi.com"
-          description="My current project– A modeler for planning 3D pixel art patterns"
+          description="My current project– A modeler for planning 3D pixel art patterns."
           tags={["three.js", "Firebase", "NextJS", "GraphQL", "SST"]}
           projectLink="https://3dkandi.com/"
           githubLink="https://github.com/sdrew712/3D-kandi-monorepo"
@@ -20,7 +20,7 @@ const Projects = () => {
           image="images/soundcloud.png"
           alt="Soundcloud image"
           title="SAPPHIRA"
-          description="Track my progress creating electronic music on Soundcloud"
+          description="Track my progress creating electronic music on Soundcloud!"
           tags={["Ableton Live", "Ableton Push 2", "Splice"]}
           projectLink="https://soundcloud.com/sapphira-879613871"
         />
