@@ -4,6 +4,13 @@
 #projects-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   padding: 6rem 1rem 2rem 1rem;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  #projects-section {
+    justify-content: space-between;
+    padding: 6rem 10rem 2rem 10rem;
+  }
 }
