@@ -1,48 +1,22 @@
-import { useEffect } from "react";
 import Headroom from "react-headroom";
 import "./index.css";
 
-const NavBar = ({ active }) => {
-  useEffect(() => {
-    const activeNavItem = document.getElementById("active");
-    const navItemName = activeNavItem.name;
-    activeNavItem.innerText = `<${activeNavItem.innerText} />`;
-    return () => {
-      activeNavItem.innerText =
-        navItemName[0].toUpperCase() + navItemName.slice(1);
-    };
-  }, [active]);
-
+const NavBar = () => {
   return (
     <Headroom>
       <nav id="nav-bar">
-        <a href="#sarah" name="sarah" id={active === "sarah" ? "active" : ""}>
+        <a href="#sarah" name="sarah">
           Sarah
         </a>
 
         <div>
-          <a
-            href="#projects"
-            className="nav-item-right"
-            name="projects"
-            id={active === "projects" ? "active" : ""}
-          >
+          <a href="#projects" className="nav-item-right" name="projects">
             Projects
           </a>
-          <a
-            href="#journey"
-            className="nav-item-right"
-            name="journey"
-            id={active === "journey" ? "active" : ""}
-          >
+          <a href="#journey" className="nav-item-right" name="journey">
             Journey
           </a>
-          <a
-            href="#contact"
-            className="nav-item-right"
-            name="contact"
-            id={active === "contact" ? "active" : ""}
-          >
+          <a href="#contact" className="nav-item-right" name="contact">
             Contact
           </a>
         </div>

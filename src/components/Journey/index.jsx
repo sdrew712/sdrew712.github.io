@@ -8,7 +8,7 @@ const Journey = () => {
       <Header title="Journey" />
       <div id="journey-section">
         <JourneyItem
-          title="Engineering Intern"
+          title="Engineer"
           location="@ Sibi"
           dates="Nov 2021 - Present"
         >
