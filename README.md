@@ -1,6 +1,6 @@
 # sdrew712.github.io
 
-I made this personal website with React to showcase my projects and progress as a software developer.
+Personal website, built with React.
 
 ## Run locally
 
