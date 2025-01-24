@@ -30,12 +30,14 @@ const ProjectCard = ({
               </span>
             ))}
           </div>
-          <div className="github-link-container">
-            <img src="images/github-logo.svg" alt="" />
-            <a href={githubLink}>
-              <p>View on GitHub</p>
-            </a>
-          </div>
+          {githubLink && (
+            <div className="github-link-container">
+              <img src="images/github-logo.svg" alt="" />
+              <a href={githubLink}>
+                <p>View on GitHub</p>
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </a>
