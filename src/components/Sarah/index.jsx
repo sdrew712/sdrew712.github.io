@@ -7,14 +7,17 @@ const Sarah = () => {
       <h1 className="pop-text" id="name">
         Sarah Drew
       </h1>
+
       <p className="intro-text">
-        a <span className="pop-text">full-stack</span> developer &{" "}
-        <span className="pop-text">creator.</span>
+        A&nbsp;<span className="pop-text">longboard dancer</span>
+        ,&nbsp;
+        <span className="pop-text">engineer</span>, and&nbsp;
+        <span className="pop-text">creator</span>.
       </p>
+
       <p className="intro-text">
-        I spend my time <span className="pop-text">skating,</span> writing{" "}
-        <span className="pop-text">music,</span> and hacking on new{" "}
-        <span className="pop-text">projects.</span>
+        I'm always hacking on something, so check up on what I've been up to
+        below!
       </p>
     </section>
   );
