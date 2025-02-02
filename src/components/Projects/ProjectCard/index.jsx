@@ -19,7 +19,7 @@ const ProjectCard = ({
         <div className="project-container">
           <div>
             <h3>{title}</h3>
-            <img src="images/open.svg" alt={alt} />
+            <img src="images/open.svg" alt={alt} className="open-icon" />
           </div>
 
           <p className="project-description">{description}</p>

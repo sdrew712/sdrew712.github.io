@@ -37,6 +37,11 @@
   justify-content: space-between;
 }
 
+.open-icon {
+  max-height: 16px;
+  height: auto;
+}
+
 .tag-container {
   display: flex;
   flex-wrap: wrap;
