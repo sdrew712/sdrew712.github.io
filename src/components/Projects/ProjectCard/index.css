@@ -13,6 +13,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.project-card .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .project-card h3 {
   color: var(--tertiary);
@@ -25,16 +30,22 @@
   font-size: 1.12rem;
 }
 
-.project-container {
+.project-card .container {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
+  height: calc(100% - 56px);
   padding: 28px;
 }
 
 .project-container > div:first-of-type {
   display: flex;
   justify-content: space-between;
+}
+
+.project-card .top {
+  display: flex;
+  flex-direction: column;
 }
 
 .open-icon {
