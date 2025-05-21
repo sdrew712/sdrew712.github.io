@@ -33,15 +33,6 @@ const Projects = () => {
           projectLink="https://medium.com/@sarah.drew.dev/creating-an-iot-robot-car-with-the-particle-photon-webhooks-and-react-2f0ab775aed1"
           githubLink="https://github.com/sdrew712/dust-eater"
         />
-        <ProjectCard
-          image="images/rate-noods.png"
-          alt="Front page of Rate Noods website"
-          title="Rate Noods"
-          description="The start of my coding journey, a many-times-reworked instant noodle rating website!"
-          tags={["React", "Amazon S3"]}
-          projectLink="http://ratenoods.xyz/"
-          githubLink="https://github.com/sdrew712/ratenoods.xyz"
-        />
       </div>
     </section>
   );
