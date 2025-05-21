@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.8fc0bcb4.css",
-    "main.js": "/static/js/main.f47352da.js",
+    "main.js": "/static/js/main.38fa6f9e.js",
     "static/media/Monda-Bold.ttf": "/static/media/Monda-Bold.f4ddb600d3b12260a2bd.ttf",
     "static/media/Monda-Regular.ttf": "/static/media/Monda-Regular.e92622470a303406a62a.ttf",
     "static/media/Manrope-Regular.ttf": "/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
     "static/media/Manrope-Bold.ttf": "/static/media/Manrope-Bold.bf52bb7e7aa3e1e99ab5.ttf",
     "index.html": "/index.html",
     "main.8fc0bcb4.css.map": "/static/css/main.8fc0bcb4.css.map",
-    "main.f47352da.js.map": "/static/js/main.f47352da.js.map"
+    "main.38fa6f9e.js.map": "/static/js/main.38fa6f9e.js.map"
   },
   "entrypoints": [
     "static/css/main.8fc0bcb4.css",
-    "static/js/main.f47352da.js"
+    "static/js/main.38fa6f9e.js"
   ]
 }
